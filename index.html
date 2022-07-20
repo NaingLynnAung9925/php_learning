@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="nav">
+        <h1>LOGO</h1>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#sec-one">One</a></li>
+            <li class="nav-item"><a href="#sec-two">Two</a></li>
+            <li class="nav-item"><a href="#sec-three">Three</a></li>
+        </ul>
+    </nav>
+
+    <section class="sec-one" id="sec-one">
+        <h2 class="txt-size">This is Section One</h2>
+        <a href="#" class="sec-txt to-fade-txt">click here to fade</a>
+        <a href="#" class="sec-txt to-slide-txt">click here to slide</a>
+        <p class="txt-hide">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nam dolores adipisci placeat numquam porro, perspiciatis reiciendis corrupti quis quod iusto, repudiandae fuga reprehenderit fugit magni saepe nostrum? Repellat, deleniti?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et cupiditate recusandae architecto, voluptatibus error cum est placeat sequi itaque, facilis adipisci temporibus quod, illum exercitationem facere minus cumque quibusdam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, nam ipsum quo vero quos deserunt in, animi nisi eius, suscipit ipsa libero aliquid. Dignissimos quam dolorum rem repudiandae! Magni, dignissimos!
+        </p>
+
+    </section>
+    <section class="sec-two" id="sec-two">
+        <h2 class="txt-size">This is Section Two</h2>
+        <a href="#sec-two" class="sec-txt to-move-center">click here to move center</a>
+        <a href="#sec-two" class="sec-txt to-move-origin">click here to move origin</a>
+       <img src="Screenshot (22).png" alt="Screenshot" class="img-size">
+    </section>
+    <section class="sec-one" id="sec-three">
+        <h2 class="txt-size">This is Section Three</h2>
+        <a href="#sec-three" class="sec-txt to-get-context">double click to get context</a>
+        <p class="get-context">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero pariatur laudantium odit vel rerum eum velit, sint, quaerat, magnam nam aliquid debitis illo mollitia doloremque omnis quas eaque autem vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non beatae eius architecto expedita nam sunt ullam et inventore voluptatum tempora sit, corrupti nemo distinctio, voluptatem quidem impedit itaque ipsa esse!
+        </p>
+        <div>
+           
+            <form action="#sec-three" class="append-form">
+                <label for="name">Name</label>
+                <input type="text" id="append-name">
+                <input type="submit" value="append" id="append">
+            </form>
+
+            <form action="#sec-three" class="prepend-form">
+                <label for="name">Name</label>
+                <input type="text" id="prepend-name">
+                <input type="submit" value="prepend" id="prepend">
+            </form>
+               
+        </div>
+    </section>
+
+    <h2>Filter</h2>
+
+    <input type="text" id="myInput" placeholder="Search...">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="myTable">
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@mail.com</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@greatstuff.com</td>
+            </tr>
+            <tr>
+                <td>Anja</td>
+                <td>Ravendale</td>
+                <td>a_r@test.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    background: #dddddd;
+    padding: 10px;
+    position: fixed;
+    width: 1400px;
+    top: 0;
+    left: 4%;
+}
+
+.nav-list
+{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item
+{
+    padding: 5px 15px;
+    list-style-type: none;
+}
+
+.nav-item a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.sec-one 
+{
+    background-color: aquamarine;
+    height: 400px;
+}
+
+.to-slide-txt
+{
+    padding: 5px 0px 10px 22px;
+    background: #fff;
+    margin-bottom: 0!important;
+}
+
+.txt-bg
+{
+    background-color: deepskyblue;
+}
+
+.sec-two
+{
+    height: 400px;
+    background-color: #090b28;
+}
+.txt-size
+{
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.sec-txt
+{
+    width: 180px;
+    margin: 20px auto;
+    display: block;
+}
+
+.txt-hide
+{
+    padding: 20px;
+    display: none;
+}
+
+.img-size
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.get-context
+{
+    padding: 20px;
+}
+
+.to-get-context
+{
+    width: 200px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
