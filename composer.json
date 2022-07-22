@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Acme\\" : "app/Acme",
+            "First\\" : "name_space/First"
+        }
+    }
+}
